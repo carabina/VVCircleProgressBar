@@ -59,6 +59,10 @@ progressBar.startPulsingAnimation()
 progressBar.stopPulsingAnimation()
 ```
 
+## License
+
+VVCircleProgressBar is available under MIT license. See the [LICENSE](https://github.com/vinothvino42/VVCircleProgressBar/blob/master/LICENSE) file for more info.
+
 ## Author
 
 * [Vinoth Vino](https://twitter.com/vinothvino42)
