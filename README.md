@@ -8,6 +8,19 @@ Custom animating circle progress bar.
 
 ![VVCircleProgressBarGif](vvcircleprogressbar.gif)
 
+## Installation
+You can install this circle progress bar in two ways.
+
+### 1. CocoaPods
+VVCircleProgressBar is available through [Cocoapods](https://cocoapods.org). To install it, simply add the following line to your Podfile.
+
+```
+pod 'VVCircleProgressBar'
+```
+
+### 2. Manually
+Download and copy ```VVCircleProgressBar/VVCircleProgressBar.swift``` file to your project.
+
 ## Usage
 ### Instantiation
 
