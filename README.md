@@ -6,7 +6,7 @@ Custom animating circle progress bar.
 
 ## Preview
 
-![VVCircleProgressBarGif](vvcircleprogressbar.gif)
+![VVCircleProgressBarGif](Preview/VVCircleProgressBar.gif)
 
 ## Installation
 You can install this circle progress bar in two ways.
@@ -22,7 +22,6 @@ pod 'VVCircleProgressBar'
 Download and copy ```VVCircleProgressBar/VVCircleProgressBar.swift``` file to your project.
 
 ## Usage
-### Instantiation
 
 ```VVCircleProgressBar``` can be instantiated programmatically.
 
@@ -36,14 +35,14 @@ self.view.addSubview(progressBar)
 
 You can customize the progress bar color, text font and text color
 
-### Progress Text
+* Progress Text
 
 ```swift
 progressBar.textColor = UIColor.white
 progressBar.font = UIFont(name: "HelveticaNeue-Bold", size: 24)!
 ```
 
-### Progress Bar Color
+* Progress Bar Color
 
 ```swift
 progressBar.pulsingColor = UIColor.pulsatingFillColor
@@ -52,7 +51,7 @@ progressBar.trackingStrokeColor = UIColor.trackStrokeColor
 progressBar.trackingFillColor = UIColor.backgroundColor
 ```
 
-### Size of Progress Bar
+* Size of Progress Bar
 
 ```swift
 progressBar.progressLayerWidth = 20
@@ -60,13 +59,13 @@ progressBar.trackLayerWidth = 20
 progressBar.pulseLayerWidth = 1.3
 ```
 
-## Start pulsing animation
+To start pulse animation
 
 ```swift
 progressBar.startPulsingAnimation()
 ```
 
-## Stop pulsing animation
+To stop pulse animation
 
 ```swift
 progressBar.stopPulsingAnimation()
