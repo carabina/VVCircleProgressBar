@@ -84,14 +84,3 @@ extension ViewController: URLSessionDownloadDelegate {
     }
 }
 
-extension UIColor {
-    
-    static func rgb(r: CGFloat, g: CGFloat, b: CGFloat) -> UIColor {
-        return UIColor(red: r/255, green: g/255, blue: b/255, alpha: 1)
-    }
-    static let backgroundColor = UIColor.rgb(r: 21, g: 22, b: 33)
-    static let trackStrokeColor = UIColor.rgb(r: 48, g: 66, b: 151)
-    static let pulsatingFillColor = UIColor.rgb(r: 44, g: 93, b: 160)
-    static let outlineStrokeColor = UIColor.rgb(r: 73, g: 160, b: 223)
-    
-}
