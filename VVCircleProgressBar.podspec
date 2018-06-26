@@ -6,7 +6,7 @@ s.description  = <<-DESC
 VVCircleProgressBar is a pulse animating custom progress bar.
 DESC
 s.homepage     = "https://github.com/vinothvino42/VVCircleProgressBar"
-s.screenshots  = "https://raw.githubusercontent.com/vinothvino42/VVCircleProgressBar/master/Preview/VVCircleProgressBar1.png", "https://raw.githubusercontent.com/vinothvino42/VVCircleProgressBar/master/Preview/VVCircleProgressBar2.png"
+s.screenshots  = "https://github.com/vinothvino42/VVCircleProgressBar/raw/master/Preview/VVCircleProgressBar1.png", "https://github.com/vinothvino42/VVCircleProgressBar/raw/master/Preview/VVCircleProgressBar2.png"
 s.license      = { :type => "MIT", :file => "LICENSE" }
 s.author             = { "Vinoth Vino" => "vinothvino42@gmail.com" }
 s.social_media_url   = "http://twitter.com/vinothvino42"
