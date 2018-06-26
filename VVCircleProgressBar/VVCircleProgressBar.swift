@@ -8,7 +8,7 @@
 
 import UIKit
 
-class VVCircleProgressBar: UIView {
+open class VVCircleProgressBar: UIView {
     
     //MARK: - PROPERTIES
     
@@ -74,12 +74,12 @@ class VVCircleProgressBar: UIView {
         }
     }
     
-    var pulsingLayer: CAShapeLayer!
-    var shapeLayer: CAShapeLayer!
-    var trackLayer: CAShapeLayer!
-    var animation: CABasicAnimation!
+    public var pulsingLayer: CAShapeLayer!
+    public var shapeLayer: CAShapeLayer!
+    public var trackLayer: CAShapeLayer!
+    public var animation: CABasicAnimation!
 
-    lazy var progressLabel: UILabel = {
+    public lazy var progressLabel: UILabel = {
         let label = UILabel()
         label.text = "0 %"
         label.textAlignment = .center
@@ -108,12 +108,12 @@ class VVCircleProgressBar: UIView {
         setupProgressLabel()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
     /// Start the pulsing animation
-    func startPulsingAnimation() {
+    public func startPulsingAnimation() {
         animation = CABasicAnimation(keyPath: "transform.scale")
         animation.toValue = 1.3
         animation.duration = 0.8
@@ -124,7 +124,7 @@ class VVCircleProgressBar: UIView {
     }
     
     /// Stop the pulsing animation
-    func stopPulsingAnimation() {
+    public func stopPulsingAnimation() {
         pulsingLayer.lineWidth = 0
         pulsingLayer.removeAnimation(forKey: "Pulsing")
     }
@@ -150,7 +150,7 @@ class VVCircleProgressBar: UIView {
     
 }
 
-extension UIColor {
+public extension UIColor {
     
     static func rgb(r: CGFloat, g: CGFloat, b: CGFloat) -> UIColor {
         return UIColor(red: r/255, green: g/255, blue: b/255, alpha: 1)
