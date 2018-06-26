@@ -6,7 +6,8 @@ Custom animating circle progress bar.
 
 ## Preview
 
-![VVCircleProgressBarGif](Preview/VVCircleProgressBar.gif)
+![VVCircleProgressBar1](Preview/VVCircleProgressBar1.png)
+![VVCircleProgressBar2](Preview/VVCircleProgressBar2.png)
 
 ## Installation
 You can install this circle progress bar in two ways.
